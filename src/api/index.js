@@ -6,7 +6,7 @@ import axios from 'axios'
 // functions will be making requests to.
 
 const api = axios.create({
-    baseURL: 'http://localhost:3000/api',
+    baseURL: 'https://mern-notes-app-backend.up.railway.app/api',
 })
 
 //It also exports a function called "insertNote" which takes in a payload
